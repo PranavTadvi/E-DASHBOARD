@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  margin: 15px;
+  list-style: none;
+  background-color: rgb(134, 194, 214);
+  border-radius: 7px;
+  color: rgb(67, 67, 211);
+}
+.navLinks {
+  display: flex;
+  list-style: none;
+}
+.navLinks a {
+  margin: 10px;
+  text-decoration: none;
+  color: rgb(67, 67, 211);
+  font-size: 17px;
+  font-weight: bold;
+}
+.navLinks li {
+  padding: 3px;
+  margin: 3px;
+  border-bottom: 1px;
+}
+.navLinks li:hover {
+  border-bottom: 1px solid rgb(45, 47, 190);
+}
+.navRight {
+}
+.footer {
+  display: flex;
+  align-items: center;
+  margin: 15px;
+  height: 50px;
+  justify-content: center;
+  background-color: rgb(134, 194, 214);
+  border-radius: 7px;
+  color: rgb(67, 67, 211);
+  position: sticky;
+}
+
+/* Signup  */
+.signUpMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0px;
+  padding: 5px;
+  width: 250px;
+  border: 2px solid skyblue;
+  border-radius: 4px;
+}
+.signUpBtn {
+  width: 180px;
+  margin: 5px 0px;
+  padding: 5px;
+  border: 2px solid skyblue;
+  border-radius: 4px;
+}
+.logout {
+  background-color: rgb(223, 131, 131);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(67, 67, 211);
+  font-weight: bold;
+}
+
+.signup {
+  background-color: rgb(168, 221, 157);
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: rgb(67, 67, 211);
+  font-weight: bold;
+}
+
+/* Login */
+.loginForm {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.loginBtn {
+  width: 180px;
+  margin: 5px 0px;
+  padding: 5px;
+  border: 2px solid skyblue;
+  border-radius: 4px;
+}
+
+/* AddProduct */
+.productAdd {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.addBtn {
+  width: 180px;
+  margin: 5px 0px;
+  padding: 5px;
+  border: 2px solid skyblue;
+  border-radius: 4px;
+}
+.invalidInputs {
+  margin-top: -9px;
+  color: red;
+  margin-left: -100px;
+}
+
+.productList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+.productList ul {
+  display: flex;
+}
+.productList ul li {
+  width: 150px;
+  list-style: none;
+  border: 2px solid rgb(72, 128, 185);
+  text-align: center;
+  margin: 5px 1px;
+}
+.updateBtn {
+  color: whitesmoke;
+  text-decoration: none;
+  margin: 0 5px;
+  padding: 0 2px;
+  background-color: darkseagreen;
+  border-radius: 3px;
+}
+.searchInput {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px 0px;
+  padding: 7px;
+  width: 350px;
+  border: 2px solid skyblue;
+  border-radius: 4px;
+}
