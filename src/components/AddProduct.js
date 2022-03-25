@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 const AddProduct = () => {
   const [name, setName] = useState("");
@@ -6,6 +7,8 @@ const AddProduct = () => {
   const [category, setCategory] = useState("");
   const [company, setCompany] = useState("");
   const [error, setError] = useState(false);
+
+  const navigate = useNavigate();
   const addProduct = async () => {
     if (!name || !price || !category || !company) {
       setError(true);
@@ -22,6 +25,10 @@ const AddProduct = () => {
     });
 
     result = await result.json();
+    if(result){
+      alert("Product Saved.......");
+      navigate("/");
+    }
   };
   return (
     <div className="productAdd">
