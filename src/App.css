@@ -10,9 +10,9 @@
   padding: 0 10px;
   margin: 15px;
   list-style: none;
-  background-color: rgb(134, 194, 214);
+  background-color: rgb(50, 93, 108);
   border-radius: 7px;
-  color: rgb(67, 67, 211);
+  color: rgb(223, 131, 131);
 }
 .navLinks {
   display: flex;
@@ -21,7 +21,7 @@
 .navLinks a {
   margin: 10px;
   text-decoration: none;
-  color: rgb(67, 67, 211);
+  color: rgb(223, 131, 131);
   font-size: 17px;
   font-weight: bold;
 }
@@ -41,9 +41,9 @@
   margin: 15px;
   height: 50px;
   justify-content: center;
-  background-color: rgb(134, 194, 214);
+  background-color: rgb(50, 93, 108);
   border-radius: 7px;
-  color: rgb(67, 67, 211);
+  color: rgb(223, 131, 131);
   position: sticky;
 }
 
